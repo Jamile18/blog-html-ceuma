@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Tecnologia</title>
+</head>
+
+<body>
+
+```
+<header>
+    <h1>Blog de Tecnologia</h1>
+
+    <nav>
+        <a href="#programacao">Programação</a>
+        <a href="#ia">Inteligência Artificial</a>
+        <a href="#inscricao">Inscrição</a>
+    </nav>
+</header>
+
+<main>
+    <article id="programacao">
+        <h2>Programação</h2>
+        <p>
+            A programação permite criar sites, aplicativos e sistemas,
+            sendo uma área fundamental para o desenvolvimento de soluções
+            tecnológicas.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80"
+            alt="Pessoa programando em um computador"
+            width="600"
+        >
+    </article>
+
+    <article id="ia">
+        <h2>Inteligência Artificial</h2>
+        <p>
+            A Inteligência Artificial utiliza algoritmos e dados para
+            realizar tarefas que podem envolver reconhecimento de padrões,
+            análise de informações e geração de conteúdo.
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
+            alt="Representação de Inteligência Artificial"
+            width="600"
+        >
+    </article>
+</main>
+
+<aside id="inscricao">
+    <h2>Inscreva-se no blog</h2>
+
+    <form method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <p>
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    minlength="3"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+            </p>
+
+            <p>
+                <label for="idade">Idade:</label>
+                <input
+                    type="number"
+                    id="idade"
+                    name="idade"
+                    min="18"
+                    max="120"
+                    required
+                >
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+
+            <p>
+                <label for="assunto">Assunto:</label>
+
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="programacao">Programação</option>
+                    <option value="inteligencia-artificial">
+                        Inteligência Artificial
+                    </option>
+                    <option value="tecnologia">Tecnologia</option>
+                </select>
+            </p>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="termos"
+                    name="termos"
+                    value="aceito"
+                    required
+                >
+
+                <label for="termos">
+                    Aceito os termos
+                </label>
+            </p>
+        </fieldset>
+
+        <button type="submit">Enviar inscrição</button>
+
+    </form>
+</aside>
+
+<footer>
+    <p>&copy; 2026 - Blog de Tecnologia</p>
+</footer>
+```
+
+</body>
+</html>
